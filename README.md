@@ -6,8 +6,11 @@ To create the react project do **npx-create-react app app-name**
 <br/>
 To start on your local system do **npm run start**
 ## External CSS library and modules used - Chakra UI and React Icons
-To install **chakra UI** use the following command - **npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion** [[https://chakra-ui.com/]]
+To install **chakra UI** use the following command - **npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion** 
 <br/>
-To install **React Icons** use the following command - **npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion** [[https://react-icons.github.io/react-icons/]]
+For More info. visit [Chakra UI](https://chakra-ui.com/) .
+<br/>
+<br/>
+To install **React Icons** use the following command - **npm i react-icons** For More info. visit [React Icons](https://react-icons.github.io/react-icons/) .
 # The project has been deployed on Vercel.
-[Vercel|[https://vercel.com]]
+To Know more visit [Vercel](https://vercel.com/) .
