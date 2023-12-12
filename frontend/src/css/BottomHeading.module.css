@@ -1,0 +1,60 @@
+.cont {
+  background-color: white;
+  padding: 35px 0px;
+  width: 80%;
+  margin: auto;
+}
+.btnCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 400px;
+  margin: auto;
+}
+.txt {
+  color: rgb(4, 21, 39);
+  font-family: "VC Honey", Helvetica, Arial, sans-serif;
+  font-size: 76px;
+  font-weight: 400;
+  line-height: 76px;
+  text-align: center;
+}
+
+.btn1 {
+  color: white;
+  background-color: #004ada;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 5px;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 17.6px;
+  letter-spacing: 0.6px;
+  line-height: 17.6px;
+  text-align: center;
+  width: 140px;
+  height: 40px;
+}
+
+.btn2 {
+  color: #004ada;
+  background-color: white;
+  border-radius: 25px;
+  border-color: #004ada;
+
+  cursor: pointer;
+  display: block;
+  margin: 5px;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 17.6px;
+  letter-spacing: 0.6px;
+  line-height: 17.6px;
+  text-align: center;
+  width: 140px;
+  height: 40px;
+}

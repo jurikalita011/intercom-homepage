@@ -1,0 +1,32 @@
+.cont {
+  background-image: linear-gradient(
+    #fefaf9,
+    #fdf5f1,
+    #fbede7,
+    #fdf1ec,
+    #fdf6f3,
+    #fef9f8,
+    #fefefe
+  );
+}
+.btn {
+  color: rgb(9, 62, 72);
+  background-image: linear-gradient(
+    to right,
+    #f8d4c5,
+    #f6c7b3,
+    #f3b89f,
+    #efa282,
+    #ed9772
+  );
+  padding: 20px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  height: 24px;
+  letter-spacing: 4px;
+  line-height: 24px;
+}

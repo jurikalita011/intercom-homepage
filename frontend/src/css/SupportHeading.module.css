@@ -1,0 +1,39 @@
+.cont {
+  background-image: linear-gradient(
+    #fefefc,
+    #fffcf7,
+    #fffaf0,
+    #fff7ea,
+    #fef7eb,
+    #fff8ed,
+    #fefaf1,
+    #fffbf3,
+    #fffcf7,
+    #fffefa,
+    #fffefc
+  );
+}
+.btn {
+  color: rgb(9, 62, 72);
+  background-image: linear-gradient(
+    to right,
+    #feebc8,
+    #fee8bf,
+    #fde3af,
+    #fde0a7,
+    #fcdb96,
+    #fcd990,
+    #fcd789,
+    #fbd585
+  );
+  padding: 20px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  height: 24px;
+  letter-spacing: 4px;
+  line-height: 24px;
+}

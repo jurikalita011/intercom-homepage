@@ -1,0 +1,77 @@
+.main {
+  background-color: #041527;
+  width: 80%;
+  margin: auto;
+}
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftBtn {
+  color: white;
+  background-color: #041527;
+  border: none;
+  cursor: pointer;
+  display: block;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 17.6px;
+  letter-spacing: 0.6px;
+  line-height: 17.6px;
+  text-align: left;
+}
+
+.leftCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 700px;
+}
+
+.rightBtn1 {
+  color: white;
+  background-color: #004ada;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 5px;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 17.6px;
+  letter-spacing: 0.6px;
+  line-height: 17.6px;
+  text-align: center;
+  width: 140px;
+  height: 40px;
+}
+
+.rightBtn2 {
+  color: white;
+  background-color: #041527;
+  border-radius: 25px;
+  border-color: white;
+
+  cursor: pointer;
+  display: block;
+  margin: 5px;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 17.6px;
+  letter-spacing: 0.6px;
+  line-height: 17.6px;
+  text-align: center;
+  width: 140px;
+  height: 40px;
+}
+
+.rightCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 400px;
+}

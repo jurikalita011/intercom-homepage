@@ -1,0 +1,72 @@
+.cont {
+  background-image: linear-gradient(
+    #f7fcfd,
+    #e8f8fc,
+    #dff6fb,
+    #e3f7fc,
+    #f8fdff,
+    #fafdfe,
+    #ffffff
+  );
+}
+
+.txt {
+  color: rgb(4, 21, 39);
+  cursor: default;
+  width: 95%;
+  font-family: "VC Honey", Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 62.4px;
+  text-align: center;
+}
+
+.txt1 {
+  color: rgb(63, 76, 90);
+  cursor: default;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  line-height: 39.6px;
+  text-align: center;
+  width: 90%;
+  word-break: normal;
+  padding: 0px;
+}
+
+.txt2 {
+  align-items: center;
+  color: rgb(0, 87, 255);
+  cursor: pointer;
+  display: block;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 23.2px;
+  justify-content: center;
+  padding: 0px;
+  text-align: center;
+}
+
+.btn {
+  color: rgb(9, 62, 72);
+  background-image: linear-gradient(
+    to right,
+    #c8f0f8,
+    #b9ebf5,
+    #9ee3f1,
+    #9ae2f0,
+    #8bdeee
+  );
+  padding: 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  height: 24px;
+  letter-spacing: 4px;
+  line-height: 24px;
+}

@@ -1,0 +1,114 @@
+.grids {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: auto;
+  gap: 30px;
+}
+
+.cards {
+  background-image: linear-gradient(
+    #f7fcfd,
+    #e8f8fc,
+    #dff6fb,
+    #e3f7fc,
+    #f8fdff,
+    #fafdfe,
+    #ffffff
+  );
+  width: 400px;
+  height: 575px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  margin: 35px 0px;
+}
+.cards2 {
+  background-image: linear-gradient(
+    #f2f8ff,
+    #ecf5fe,
+    #deeefe,
+    #d7eafe,
+    #cfe5fd,
+    #c6e1fd
+  );
+  width: 400px;
+  height: 575px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  margin: 35px 0px;
+}
+.cards3 {
+  background-image: linear-gradient(
+    #fffbf2,
+    #fff8ec,
+    #fff6e5,
+    #fff4e0,
+    #fff2db
+  );
+  width: 400px;
+  height: 575px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  margin: 35px 0px;
+}
+.icon {
+  color: #00b4d8;
+  display: inline;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+.icon2 {
+  color: #f3b521;
+  display: inline;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+.title {
+  color: rgb(63, 76, 90);
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 26.4px;
+  letter-spacing: 0.5px;
+  line-height: 26.4px;
+  text-align: left;
+  display: inline;
+}
+
+.txtCont {
+  height: 300px;
+}
+
+.heading1 {
+  padding: 20px;
+  color: rgb(4, 21, 39);
+  cursor: default;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  height: auto;
+  letter-spacing: 0.3px;
+  line-height: 27.36px;
+  text-align: start;
+  width: auto;
+}
+
+.para1 {
+  color: rgb(4, 21, 39);
+  padding: 20px;
+  cursor: default;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: auto;
+  letter-spacing: 0.5px;
+  line-height: 26.4px;
+  text-align: start;
+  width: auto;
+}
+
+.img {
+  border-radius: 0px 0px 20px 20px;
+  width: 400px;
+  height: 250px;
+}

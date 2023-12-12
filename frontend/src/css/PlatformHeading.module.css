@@ -1,0 +1,66 @@
+.cont {
+  background-color: #041527;
+}
+
+.txt {
+  color: white;
+  width: 95%;
+  font-family: "VC Honey", Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 62.4px;
+  text-align: center;
+}
+
+.txt1 {
+  color: #b9bec3;
+  cursor: default;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  line-height: 39.6px;
+  text-align: center;
+  width: 90%;
+  word-break: normal;
+  padding: 0px;
+}
+
+.txt2 {
+  align-items: center;
+  color: white;
+  cursor: pointer;
+
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 23.2px;
+  justify-content: center;
+  padding: 0px;
+  text-align: center;
+}
+
+.btn {
+  color: rgb(9, 62, 72);
+  background-image: linear-gradient(
+    to right,
+    #b9dffa,
+    #9edef2,
+    #9ddde0,
+    #c6dab9,
+    #e3d89d,
+    #f6d68b,
+    #f0a372,
+    #ee996d
+  );
+  padding: 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  height: 24px;
+  letter-spacing: 4px;
+  line-height: 24px;
+}

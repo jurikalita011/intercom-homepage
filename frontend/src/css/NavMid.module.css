@@ -1,0 +1,29 @@
+.btnCont {
+  display: flex;
+  justify-content: space-between;
+  width: 12%;
+  margin-left: auto;
+  padding: 4px;
+  margin-right: 200px;
+}
+
+.btn {
+  color: white;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+  display: block;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 17.6px;
+  letter-spacing: 0.6px;
+  line-height: 17.6px;
+  text-align: left;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  visibility: visible;
+  width: 76.5625px;
+}
