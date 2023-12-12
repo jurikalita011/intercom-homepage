@@ -1,7 +1,7 @@
 # Intercom, Inc. is a software company that specializes in business messaging, providing businesses with a way to chat with their customers.
 It was assigned to build its homepage along with the FAQ button pop-up and its contents which includes the chat bot and various news articles.
-# Time limit- 1 day
-# Tech- Stacks used - react js, HTML,CSS
+# Time duration- 1 day
+# Tech- Stacks used - react js, HTML, CSS
 To create the react project do **npx-create-react app app-name**
 <br/>
 To start on your local system do **npm run start**
