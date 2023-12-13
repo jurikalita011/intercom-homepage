@@ -22,6 +22,7 @@ import { Testimonial4 } from "../components/Testimonial4";
 import { PlatformHeading } from "../components/PlatformHeading";
 import { Testimonial5 } from "../components/Testimonial5";
 import { BottomHeading } from "../components/BottomHeading";
+import { FaqModal } from "./FaqModal";
 
 export const HomePage = () => {
   return (
@@ -48,6 +49,7 @@ export const HomePage = () => {
       <PlatformHeading />
       <Testimonial5 />
       <BottomHeading />
+      <FaqModal />
     </Box>
   );
 };

@@ -5,10 +5,7 @@ import styles from "../css/Image1.module.css";
 export const Image4 = () => {
   return (
     <Box marginBottom={"35px"}>
-      <Image
-        className={styles.cont}
-        src={img}
-      />
+      <Image className={styles.cont} src={img} />
     </Box>
   );
 };

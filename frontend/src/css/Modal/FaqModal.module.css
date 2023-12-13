@@ -1,0 +1,214 @@
+.cont {
+  background-image: linear-gradient(
+    #173e7a,
+    #0b4dc5,
+    #0454eb,
+    #1b6cfe,
+    #5196fc,
+    #5d9ffc,
+    #76b3fb,
+    #b3d9fa,
+    #def1fd,
+    #f1f1f1,
+    #ffffff
+  );
+  width: 400px;
+  height: 500px;
+
+  z-index: 2000;
+}
+.faqBtn {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #0057ff;
+}
+.img1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+.topCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+}
+.modalCont {
+  justify-content: flex-start;
+  padding-inline: 2rem;
+  border-radius: 25px;
+}
+
+.txt1 {
+  color: white;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 32px;
+  font-stretch: 100%;
+  font-weight: 700;
+  height: 38px;
+  letter-spacing: normal;
+  line-height: 38px;
+  opacity: 0.7;
+  text-align: left;
+  text-decoration-color: rgb(255, 255, 255);
+  text-emphasis-color: rgb(255, 255, 255);
+  text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 30px;
+  width: 340px;
+  margin: 0;
+  padding: 70px 0px 0px 40px;
+}
+
+.txt2 {
+  color: white;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 32px;
+  font-stretch: 100%;
+  font-weight: 700;
+  height: 38px;
+  line-height: 38px;
+  opacity: 1;
+  text-align: left;
+  text-decoration-color: rgb(255, 255, 255);
+  text-emphasis-color: rgb(255, 255, 255);
+  text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 30px;
+  width: 340px;
+  margin-top: 0.5rem;
+  padding-left: 40px;
+}
+/*community box*/
+.chatBtnBox,
+.communityBox {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 5px 10px 15px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+}
+
+.chatBtnTxtBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5px;
+}
+
+.chatBtnTxt1 {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  font-stretch: 100%;
+  font-weight: 600;
+  height: 21px;
+  line-height: 21px;
+  width: 315px;
+  text-align: left;
+  padding: 0px 10px;
+}
+
+.chatBtnTxt1:hover {
+  color: #0057ff;
+}
+
+.chatBtnTxt2 {
+  color: black;
+  opacity: 70%;
+  cursor: pointer;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  font-stretch: 100%;
+  font-weight: 400;
+  height: 21px;
+  line-height: 21px;
+  width: 315px;
+  text-align: left;
+  padding: 0px 10px;
+}
+
+.communityImage {
+  width: 350px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+}
+.communityTextBox1 {
+  max-width: 350px;
+  padding: "0px 11px";
+}
+
+.communityTextBox1:hover {
+  background-color: #e3f2fd;
+}
+
+.searchInpBox {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 330px;
+}
+.searchInp {
+  color: black;
+  font-weight: 700;
+}
+.searchInp:hover {
+  color: #0057ff;
+}
+.searchInp:focus,
+.searchInp,
+input:focus {
+  margin-top: 5px;
+  padding: 5px;
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.searchInp:hover {
+  background-color: #e3f2fd;
+}
+.searchBtn {
+  width: 350px;
+  margin: auto;
+  display: block;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0px 10px;
+}
+.searchBtn:hover {
+  color: #0057ff;
+  background-color: #e3f2fd;
+}
+.iconBox {
+  width: 400px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 10px;
+}
+.iconBtn {
+  background-color: white;
+  border: none;
+}
+
+.iconBtn:hover {
+  color: #0057ff;
+}

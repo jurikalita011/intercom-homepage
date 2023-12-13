@@ -5,7 +5,7 @@ import styles from "../css/Navbar.module.css";
 import logo from "../assets/logo2.png";
 export const Navbar = () => {
   return (
-    <Box bg={"#041527"} position="sticky" top={0} zIndex={1}>
+    <Box bg={"#041527"} position="sticky" top={0} zIndex={"1000"}>
       <Box className={styles.main}>
         <Box className={styles.cont}>
           <Box className={styles.leftCont}>
