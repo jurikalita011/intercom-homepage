@@ -1,0 +1,15 @@
+.topCont {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.txt1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.txt2 {
+  font-size: 14px;
+}
