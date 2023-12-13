@@ -2,7 +2,7 @@
 It was assigned to build its homepage along with the FAQ button pop-up and its contents which includes the chat bot and various news articles.
 # Time duration- 1 day
 # Tech- Stacks used - react js, HTML, CSS
-To create the react project do **npx create-react-app <app-name>**
+To create the react project do **npx create-react-app app-name**
 <br/>
 To start on your local system do **npm run start**
 ## External CSS library and modules used - Chakra UI and React Icons
