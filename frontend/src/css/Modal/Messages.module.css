@@ -54,11 +54,12 @@
   border: none;
   border-radius: 10px;
   padding: 0px 10px;
-  margin-top: 290px;
+  margin: 290px 0px 0px 110px;
 }
 .txtBtn {
   display: flex;
   justify-content: space-between;
+  margin: auto;
   align-items: center;
 }
 
