@@ -15,6 +15,7 @@ export const Messages = () => {
           maxHeight: "100vh",
           overflowX: "hidden",
         }}
+        borderRadius={"20px 20px 0px 0px"}
       >
         <Box className={styles.topCont}>
           <Text className={styles.txtHeading}>Messages</Text>

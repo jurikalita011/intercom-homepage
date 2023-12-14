@@ -46,9 +46,7 @@ export const FaqModal = () => {
           top="40"
           left="1100"
           transform="translateY(-50%)"
-          isCentered={"false"}
           zIndex="1100"
-          isRight
         >
           <ModalOverlay />
           <ModalContent>

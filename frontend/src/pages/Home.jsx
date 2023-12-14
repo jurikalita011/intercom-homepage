@@ -14,6 +14,7 @@ export const Home = () => {
           maxHeight: "100vh",
           overflowX: "hidden",
         }}
+        borderRadius={"20px 20px 0px 0px"}
       >
         <Box className={styles.topCont}>
           <Image

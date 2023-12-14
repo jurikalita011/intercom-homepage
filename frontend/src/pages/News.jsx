@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Box, Image, Text } from "@chakra-ui/react";
 import stylesss from "../css/Modal/News.module.css";
 import styless from "../css/Modal/FaqModal.module.css";
 import styles from "../css/Modal/Messages.module.css";
 import { BottomNav } from "../components/modal/BottomNav";
+import { useDispatch, useSelector } from "react-redux";
+import { getNews } from "../redux/postReducer/action";
+import { FaAngleRight } from "react-icons/fa";
 
 export const News = () => {
+  const news = useSelector((store) => store.news);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getNews());
+  }, []);
   return (
     <>
       <Box
@@ -15,6 +24,7 @@ export const News = () => {
           maxHeight: "100vh",
           overflowX: "hidden",
         }}
+        borderRadius={"20px 20px 0px 0px"}
       >
         <Box className={styles.topCont}>
           <Text className={styles.txtHeading}>News</Text>
@@ -39,7 +49,35 @@ export const News = () => {
             />
           </Box>
         </Box>
+        <Box className={stylesss.grid}>
+          {news?.map((el) => (
+            <Box key={el._id} className={stylesss.cont}>
+              <Image src={el.img} alt={el.title} className={stylesss.img2} />
+              <Box className={stylesss.box}>
+                <Box className={stylesss.tagCont}>
+                  <Text className={stylesss.tag1}>{el.tags[0]}</Text>
+                  <Text className={stylesss.tag1}>{el.tags[1]}</Text>
+                </Box>
+
+                <Box className={stylesss.titleContIn}>
+                  <Text className={stylesss.title}>
+                    {el.title.substring(0, 65)}
+                  </Text>
+                </Box>
+                <Box className={stylesss.titleCont}>
+                  <Box w={"90%"}>
+                    <Text className={stylesss.body}>
+                      {el.body.substring(0, 80)}...
+                    </Text>
+                  </Box>
+                  <FaAngleRight style={{ color: "#0057FF" }} />
+                </Box>
+              </Box>
+            </Box>
+          ))}
+        </Box>
       </Box>
+
       <BottomNav iconColor3="#0057FF" />
     </>
   );

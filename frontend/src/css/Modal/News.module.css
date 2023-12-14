@@ -13,3 +13,69 @@
 .txt2 {
   font-size: 14px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 15px;
+}
+
+.cont {
+  cursor: pointer;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  margin: auto;
+  height: 300px;
+  border-radius: 10px;
+}
+.box {
+  width: 90%;
+  margin: auto;
+}
+.img2 {
+  width: 350px;
+  margin: auto;
+  height: 150px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.tag1,
+.tag2 {
+  font-size: 13px;
+  color: #246eff;
+  background-color: #e5eeff;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 3px;
+}
+.tag1 {
+  margin: 0px 5px 0px 5px;
+}
+.tagCont {
+  display: flex;
+}
+.titleCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleContIn {
+  width: 230px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.title {
+  font-size: 13.5px;
+  font-weight: 500;
+}
+
+.title:hover {
+  color: #246eff;
+}
+
+.body {
+  font-size: 13.5px;
+}
